@@ -8,7 +8,7 @@ export function HeroSection() {
       <div className="container mx-auto flex max-w-[95%] flex-col items-center gap-12 px-4 md:flex-row md:px-6">
         <div className="relative w-full md:w-1/2 h-64 md:h-96 rounded-lg overflow-hidden shadow-xl">
           <Image
-            src="https://storage.googleapis.com/rsr_accounting/rsr_accounting_about_live.jpg"
+            src="/images/rsr_accounting_about_live.jpg"
             alt="RSR Accounting Services"
             layout="fill"
             objectFit="cover"
