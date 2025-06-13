@@ -23,7 +23,7 @@ export function AboutUsSection() {
               <CardContent className="p-0">
                 <div className="relative w-full h-80 md:h-96">
                   <Image
-                    src="https://storage.googleapis.com/rsr_about_live.jpg"
+                    src="https://storage.googleapis.com/rsr_accounting/rsr_about_live.jpg"
                     alt="About RSR Accounting"
                     layout="fill"
                     objectFit="cover"
