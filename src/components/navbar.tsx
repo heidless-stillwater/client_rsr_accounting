@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from 'next/image';
@@ -23,6 +24,9 @@ export function Navbar() {
           <Link href="#about-us" passHref>
             <span className="text-xl hover:text-primary transition-colors cursor-pointer">About Us</span>
           </Link>
+          <Link href="#ai-tools" passHref>
+            <span className="text-xl hover:text-primary transition-colors cursor-pointer">AI Tools</span>
+          </Link>
           <Link href="#contact" passHref>
             <span className="text-xl hover:text-primary transition-colors cursor-pointer">Contact</span>
           </Link>
@@ -32,3 +36,4 @@ export function Navbar() {
     </nav>
   );
 }
+
