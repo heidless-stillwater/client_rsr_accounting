@@ -12,7 +12,7 @@ export function Navbar() {
         <Link href="/" passHref>
           <div className="w-[150px] cursor-pointer">
             <Image
-              src="https://storage.googleapis.com/rsr_accounting/rsr_accounting_logo_live.png"
+              src="/images/rsr_accounting_logo_live.png"
               alt="RSR Accounting Logo"
               width={1000} 
               height={240}
