@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { Phone } from 'lucide-react';
 
 export function HeroSection() {
   return (
@@ -30,6 +31,10 @@ export function HeroSection() {
               <Button size="lg" variant="outline">Contact Us</Button>
             </Link>
           </div>
+          <a href="tel:07484928374" className="flex items-center space-x-2 text-lg text-muted-foreground hover:text-primary transition-colors pt-4">
+            <Phone className="h-5 w-5" />
+            <span>07484 928 374</span>
+          </a>
         </div>
       </div>
     </section>
