@@ -20,11 +20,11 @@ export function ContactUsSection() {
               <CardContent className="p-0">
                 <div className="relative w-full h-80 md:h-96">
                   <Image
-                    src="/images/rsr_accounting_about_live.jpg"
-                    alt="RSR Accounting Contact"
+                    src="/images/rsr_accounting_team_live.jpg"
+                    alt="RSR Accounting Team"
                     layout="fill"
                     objectFit="cover"
-                    data-ai-hint="accounting office"
+                    data-ai-hint="team meeting"
                   />
                 </div>
               </CardContent>
