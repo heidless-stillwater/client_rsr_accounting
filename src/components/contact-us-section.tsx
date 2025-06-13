@@ -20,7 +20,7 @@ export function ContactUsSection() {
               <CardContent className="p-0">
                 <div className="relative w-full h-80 md:h-96">
                   <Image
-                    src="https://storage.googleapis.com/rsr_accounting/rsr_accounting_team_live.jpg"
+                    src="/images/rsr_accounting/rsr_accounting_team_live.jpg"
                     alt="RSR Accounting Team"
                     layout="fill"
                     objectFit="cover"
@@ -35,11 +35,11 @@ export function ContactUsSection() {
               We're here to help with all your accounting needs. Reach out to us through any of the channels below, or visit our office.
             </p>
             {contactDetails.map((item, index) => (
-              <a 
-                key={index} 
-                href={item.href} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                key={index}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center space-x-3 group"
               >
                 {item.icon}
