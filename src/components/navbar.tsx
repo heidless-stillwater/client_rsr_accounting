@@ -9,7 +9,7 @@ export function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md shadow-sm">
       <div className="container mx-auto flex h-20 max-w-[95%] items-center justify-between px-4">
         <Link href="/" passHref>
-          <div className="w-[200px] cursor-pointer">
+          <div className="w-[150px] cursor-pointer">
             <Image
               src="https://storage.googleapis.com/rsr_accounting/rsr_accounting_logo_live.png"
               alt="RSR Accounting Logo"
