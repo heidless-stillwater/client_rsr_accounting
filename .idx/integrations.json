@@ -3,5 +3,6 @@
     "region": "europe-west2",
     "sourceFlag": "--source .",
     "allowUnauthenticatedInvocationsFlag": "--allow-unauthenticated"
-  }
+  },
+  "secrets_manager": {}
 }
